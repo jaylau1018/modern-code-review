@@ -25,8 +25,8 @@ def is_win(game):
 def main():
     # Initialize the game board
     game = [['*' for _ in range(3)] for _ in range(3)]
-    player1 = 'X'
-    player2 = 'O'
+    player 1 = 'X'
+    player 2 = 'O'
     turn = True  # False for player 1's turn, True for player 2's turn. Player 1 first.
     
     print("X = Player 1")
